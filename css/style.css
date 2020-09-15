@@ -112,7 +112,12 @@ q:before, q:after {
   grid-template-rows: minmax(min-content, 100vh);
   background-color: #303c4d;
   place-items: center;
-  grid-template-columns: [full-start] minmax(1rem, auto) [col-start] repeat(2, [inner-col-start] minmax(min-content, 30vw) [inner-col-end]) [col-end] minmax(1rem, auto) [full-end];
+  grid-template-columns: [full-start] minmax(1rem, auto) [col-start] repeat(2, [inner-col-start] minmax(min-content, 35vw) [inner-col-end]) [col-end] minmax(1rem, auto) [full-end];
+}
+@media screen and (max-width: 50em) {
+  .container {
+    grid-template-columns: [full-start] minmax(1rem, auto) [col-start] repeat(2, [inner-col-start] minmax(min-content, 40vw) [inner-col-end]) [col-end] minmax(1rem, auto) [full-end];
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
