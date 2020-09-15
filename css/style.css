@@ -20,7 +20,6 @@ time, mark, audio, video {
   vertical-align: baseline;
   margin-block-start: 0;
   margin-block-end: 0;
-  display: block;
   font-family: "Poppins", sans-serif;
   color: white;
 }
@@ -95,7 +94,7 @@ q:before, q:after {
   font-size: 3rem;
 }
 .body__div h4 {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   width: 70%;
   line-height: 2.5rem;
 }
@@ -115,7 +114,7 @@ q:before, q:after {
   grid-template-rows: minmax(min-content, 100vh);
   background-color: #303c4d;
   place-items: center;
-  grid-template-columns: [full-start] minmax(1rem, auto) [col-start] repeat(2, [inner-col-start] minmax(min-content, 30vw) [inner-col-end]) [col-end] minmax(1rem, auto) [full-end];
+  grid-template-columns: [full-start] minmax(1rem, auto) [col-start] repeat(2, [inner-col-start] minmax(min-content, 20vw) [inner-col-end]) [col-end] minmax(1rem, auto) [full-end];
 }
 @media screen and (max-width: 50em) {
   .container {
