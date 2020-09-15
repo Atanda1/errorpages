@@ -30,17 +30,17 @@ html {
 }
 @media screen and (max-width: 90em) {
   html {
-    font-size: 55%;
+    font-size: 58%;
   }
 }
 @media screen and (max-width: 55em) {
   html {
-    font-size: 45%;
+    font-size: 55%;
   }
 }
 @media screen and (max-width: 40em) {
   html {
-    font-size: 35%;
+    font-size: 45%;
   }
 }
 
