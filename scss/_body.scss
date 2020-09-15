@@ -10,7 +10,7 @@
         // align-items: center;
         display: grid;
         text-align: center;
-
+   
     & img {
         @extend %center;
     } 
@@ -20,12 +20,16 @@
       //  width: 70%;
     } 
     & h4 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         @extend %center;
         width: 70%;
-        line-height: 1.8rem;
+        line-height: 2.5rem;
     }
-
+    &__details {
+            &__h6 {
+                font-size: 1.3rem;
+            }
+        }
     }
 }
 
